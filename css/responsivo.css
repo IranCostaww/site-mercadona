@@ -1,37 +1,79 @@
-@media screen and (max-width:1005px){
-    .navbar{
-        position:relative;
+@media screen and (max-width: 1005px) {
+    body, html {
+        overflow-x: hidden;
     }
-    .menu{
-        display:none;
-    }
-    .logo{
-        margin:0;
-        text-align: center;
-    }
-    .header{
+
+    .navbar {
         height: auto;
-        padding-top:50px;
-        padding: 20px 0;
+        padding: 10px 0;
+        flex-direction: column;
     }
-    .headline{
-        flex:100%;
-        margin: 5%;
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header {
+        height: auto;
+        flex-direction: column;
+        padding: 30px 0;
+        width: 100%;
+    }
+
+    .headline {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .headline p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .img-headline {
+        width: 100%;
+        margin: 20px 0 0 0;
         text-align: center;
     }
-    .headline p{
-        text-align: center;
+
+    .img-headline img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
-    .img-headline{
-        flex:50%;
-        text-align: center;
-        margin:5%;
+
+    section {
+        padding: 5% 0;
+        width: 100%;
     }
-    .wpp{
-        display:none;
+    
+    .servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-    .card{
-        width:100%;
+
+    .card {
+        width: 90%;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+    .wpp {
+        display: none;
     }
 }
-    
